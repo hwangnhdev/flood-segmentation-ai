@@ -1,0 +1,2 @@
+convnext_tiny_v2/best_model_iou.pth filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text

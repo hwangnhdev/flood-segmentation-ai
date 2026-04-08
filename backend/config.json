@@ -1,0 +1,28 @@
+{
+  "model_name": "ConvNeXt-Tiny ViT-UNet",
+  "num_classes": 10,
+  "input_size": 512,
+  "backbone": "convnext_tiny",
+  "val_metrics": {
+    "accuracy": 0.8749,
+    "dice": 0.7522,
+    "iou": 0.6825,
+    "loss": 0.654836
+  },
+  "available_models": [
+    { "id": "best_model_iou",   "name": "Model v1 (Best IoU)" },
+    { "id": "best_model_iou_2", "name": "Model v2 (Optimized)" }
+  ],
+  "classes": [
+    { "id": 0, "name": "Background",      "color": [20,  20,  20]  },
+    { "id": 1, "name": "Building",        "color": [139, 69,  19]  },
+    { "id": 2, "name": "Road",            "color": [128, 128, 128] },
+    { "id": 3, "name": "Water",           "color": [30,  100, 220] },
+    { "id": 4, "name": "Tree",            "color": [34,  139, 34]  },
+    { "id": 5, "name": "Vehicle",         "color": [255, 140, 0]   },
+    { "id": 6, "name": "Pool",            "color": [0,   220, 220] },
+    { "id": 7, "name": "Grass",           "color": [124, 252, 0]   },
+    { "id": 8, "name": "Flooded Building","color": [255, 105, 180] },
+    { "id": 9, "name": "Flooded Road",    "color": [148, 0,   211] }
+  ]
+}
