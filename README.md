@@ -11,6 +11,10 @@
 
 ![Demo FloodSeg AI](./assets/demo/Screenshot%202026-04-08%20145308.png)
 
+![Demo Screenshot 1](./assets/demo/Screenshot%202026-04-09%20151210.png)
+
+![Demo Screenshot 2](./assets/demo/Screenshot%202026-04-09%20151405.png)
+
 ---
 
 ## Key Features
