@@ -11,8 +11,6 @@
 
 ![Demo FloodSeg AI](./assets/demo/Screenshot%202026-04-08%20145308.png)
 
-![Demo Screenshot 1](./assets/demo/Screenshot%202026-04-09%20151210.png)
-
 ![Demo Screenshot 2](./assets/demo/Screenshot%202026-04-09%20151405.png)
 
 ---
@@ -47,6 +45,10 @@ The system uses a hybrid variant of UNet, specifically designed for complex segm
 3.  **ASPP (Atrous Spatial Pyramid Pooling):** Helps the model understand context at multiple scales.
 4.  **Attention Gates:** Integrated into skip connections to focus on the most important feature regions (e.g., boundaries between water and land).
 5.  **Decoder:** Decoder Blocks use Upsampling and Convolutions to restore a high-detail 512x512 output.
+
+<div align="center">
+  <img src="./assets/architech/z7656466753704_4d710d99d9d4c3b9783eda4b3bf65fa1.jpg" alt="Model Architecture" width="70%">
+</div>
 
 ### Performance Metrics (Benchmark)
 - **Accuracy:** 87.49%
